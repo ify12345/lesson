@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <meta name="description" content="Inputs" />
+    <meta property="og:title" content="Ada Okafor | Frontend Developer" />
+    <meta property="og:description" content="Fast, accessible websites." />
+    <meta property="og:image" content="https://adaokafor.dev/preview.png" />
+    <meta property="og:url" content="https://adaokafor.dev" />
+    <link rel="icon" href="/images/home-example.jpg" />
+  </head>
+  <body>
+    <form action="/signup" method="POST">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5"> </textarea>
+    </form>
+
+    <label for="food"></label>
+
+    <select id="food" name="food">
+      <option value="">Choose a food</option>
+      <option value="rice">Rice</option>
+      <option value="beans">Beans</option>
+    </select>
+
+    <fieldset>
+      <legend>Experience level</legend>
+
+      <input type="radio" id="beginner" name="level" value="beginner" />
+      <label for="beginner">Beginner</label>
+
+      <input type="radio" id="intermediate" name="level" value="intermediate" />
+      <label for="intermediate">Intermediate</label>
+    </fieldset>
+
+    <input type="text" name="" id="" maxlength="3" />
+    <input
+      type="date"
+      id="start-date"
+      name="start-date"
+      min="2025-01-01"
+      max="2026-12-31"
+    />
+    <input
+      type="password"
+      id="pwd"
+      name="pwd"
+      pattern=".{8,}"
+      title="Eight or more characters"
+    />
+    <input type="email" name="" id="" placeholder="Enter your email" />
+  </body>
+</html>
